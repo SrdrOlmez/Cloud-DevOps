@@ -7,6 +7,7 @@ This repository contains scripts and documentation for learning Azure core servi
 - `Azure-core/`
   - `Create-resource-group/` → Scripts to create Resource Groups
   - `Entra-ID/` → Scripts to create Users, Groups, and assign RBAC roles
+  - `VM-Nginx-Networking/` → Commands to create and manage VM, Nginx and Networking	
 - `README.md` files in each folder explain step-by-step instructions.
 
 ## Day 1 Overview
