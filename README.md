@@ -15,3 +15,9 @@ This repository contains scripts and documentation for learning Azure core servi
 - Learn Azure Entra ID: Users, Groups, RBAC
 - Push scripts and documentation to GitHub
 
+## Day 2 Overview
+
+- Deploy Linux VM, connect via SSH
+- Install Nginx and azure CLI to VM
+- Confirm webpage
+- Explore Networking: VNet + Subnet
