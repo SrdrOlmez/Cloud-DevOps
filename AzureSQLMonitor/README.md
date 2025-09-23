@@ -15,4 +15,4 @@
 ![create,read,update,delete query](screenshots/ADS-query.jpg)
 
 ### Connection issue
-- Connect with your full domain "<your-server-name>.database.windows.net"
+- Connect with your full domain "your-server-name.database.windows.net"
