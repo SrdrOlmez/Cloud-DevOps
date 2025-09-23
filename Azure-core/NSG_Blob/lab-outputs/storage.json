@@ -1,0 +1,18 @@
+{
+  "name": "<STORAGE_ACCOUNT_NAME>",
+  "resourceGroup": "<RG>",
+  "location": "westeurope",
+  "sku": {
+    "name": "Standard_LRS"
+  },
+  "kind": "StorageV2",
+  "primaryEndpoints": {
+    "blob": "https://<STORAGE_ACCOUNT_NAME>.blob.core.windows.net/"
+  },
+  "properties": {
+    "supportsHttpsTrafficOnly": true,
+    "creationTime": "2025-09-23T12:00:00Z",
+    "provisioningState": "Succeeded"
+  }
+}
+

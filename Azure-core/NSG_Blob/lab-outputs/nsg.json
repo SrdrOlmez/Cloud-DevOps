@@ -1,0 +1,39 @@
+{
+  "name": "<NSG_NAME>",
+  "resourceGroup": "<RG>",
+  "location": "westeurope",
+  "provisioningState": "Succeeded",
+  "networkInterfaces": [
+    {
+      "id": "/subscriptions/<SUBSCRIPTION_ID>/networkInterfaces/<NIC_NAME>",
+      "resourceGroup": "<RG>"
+    }
+  ],
+  "subnets": [
+    {
+      "id": "/subscriptions/<SUBSCRIPTION_ID>/virtualNetworks/<VNET_NAME>/subnets/<SUBNET_NAME>",
+      "resourceGroup": "<RG>"
+    }
+  ],
+  "securityRules": [
+    {
+      "name": "Allow-SSH",
+      "priority": 1000,
+      "protocol": "Tcp",
+      "direction": "Inbound",
+      "access": "Allow",
+      "destinationPortRange": "22",
+      "sourceAddressPrefix": "*"
+    },
+    {
+      "name": "Allow-HTTP",
+      "priority": 1010,
+      "protocol": "Tcp",
+      "direction": "Inbound",
+      "access": "Allow",
+      "destinationPortRange": "80",
+      "sourceAddressPrefix": "*"
+    }
+  ]
+}
+
