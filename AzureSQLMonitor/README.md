@@ -10,7 +10,9 @@
 
 ## Screenshots
 - Connected in ADS
-![azure data studio login screen](screenshots/ADS-login.jpg)
+![azure data studio login screen](./screenshots/ADS-login.jpg)
 - CRUD Results
-![create,read,update,delete query](screenshot/ADS-query.jpg)
+![create,read,update,delete query](./screenshot/ADS-query.jpg)
 
+### Connection issue
+- Connect with your full domain "<your-server-name>.database.windows.net"
