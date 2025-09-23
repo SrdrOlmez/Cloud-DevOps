@@ -8,6 +8,7 @@ This repository contains scripts and documentation for learning Azure core servi
   - `Create-resource-group/` → Scripts to create Resource Groups
   - `Entra-ID/` → Scripts to create Users, Groups, and assign RBAC roles
   - `VM-Nginx-Networking/` → Commands to create and manage VM, Nginx and Networking	
+  - `NSG-Blob_Storage/` → Scripts, commands and templates 
 - `README.md` files in each folder explain step-by-step instructions.
 
 ## Day 1 Resource Group and Entra ID
@@ -23,7 +24,7 @@ This repository contains scripts and documentation for learning Azure core servi
 - Confirm webpage
 - Explore Networking: VNet + Subnet
 
-# Day 3 Lab: Basic Web App Infrastructure on Azure
+## Day 3 Lab: Basic Web App Infrastructure on Azure
 
 This lab demonstrates how to combine key Azure services into a small web application infrastructure:
 - Virtual Machine (Ubuntu) with Nginx web server
