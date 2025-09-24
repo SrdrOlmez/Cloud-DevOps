@@ -11,20 +11,20 @@ This repository contains scripts and documentation for learning Azure core servi
   - `NSG-Blob_Storage/` → Scripts, commands and templates 
 - `README.md` files in each folder explain step-by-step instructions.
 
-## Day 1 Resource Group and Entra ID
+## Resource Group and Entra ID
 
 - Create Resource Group using Bash scripts
 - Learn Azure Entra ID: Users, Groups, RBAC
 - Push scripts and documentation to GitHub
 
-## Day 2 VM, Nginx, Networking
+## VM, Nginx, Networking
 
 - Deploy Linux VM, connect via SSH
 - Install Nginx and azure CLI to VM
 - Confirm webpage
 - Explore Networking: VNet + Subnet
 
-## Day 3 Lab: Basic Web App Infrastructure on Azure
+## Basic Web App Infrastructure on Azure
 
 This lab demonstrates how to combine key Azure services into a small web application infrastructure:
 - Virtual Machine (Ubuntu) with Nginx web server
@@ -34,6 +34,16 @@ This lab demonstrates how to combine key Azure services into a small web applica
 - Upload/download verification with CLI
 - SAS (Shared Access Signature) URL for secure access
 
+## Azure SQL Database and azure monitor
+
+- Created SQL server and configured firewall rule
+- Connected with Azure Data Studio
+- Ran CRUD queries on Students table
+
+### Azure monitor
+
+- Created a CPU usage alert on VM
+- Tested CPU with stress tool and got CPU alert
 
 
 
