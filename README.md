@@ -9,6 +9,7 @@ This repository contains scripts and documentation for learning Azure core servi
   - `Entra-ID/` → Scripts to create Users, Groups, and assign RBAC roles
   - `VM-Nginx-Networking/` → Commands to create and manage VM, Nginx and Networking	
   - `NSG-Blob_Storage/` → Scripts, commands and templates 
+- `AzureSQLMonitor/`→ Azure SQL database and Azure Alerts labs
 - `README.md` files in each folder explain step-by-step instructions.
 
 ## Resource Group and Entra ID
