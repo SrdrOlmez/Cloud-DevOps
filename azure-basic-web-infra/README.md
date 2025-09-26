@@ -14,7 +14,7 @@
 ### 2. Networking: VNet + Subnet + NSG
 ![vnet-subnet created](screenshots/vnet.jpg)
 SSH & HTTP Rules created
-![ssh rule created](screenshot/ssh-rule.jpg)
+![ssh rule created](screenshots/ssh-rule.jpg)
 ![http rule created](screenshots/http-rule.jpg)
 
 ### 3. Deploy Linux VM + Install Web Server
@@ -29,14 +29,15 @@ ssh azureuser@<PUBLIC_IP>
 #Inside VM - Install Nginx
 sudo apt update && sudo apt install -y nginx
 sudo systemctl enable nginx
-sudo systemctl start nginx ```
+sudo systemctl start nginx 
+```
 
 Welcome to Nginx!
-![Nginx on the explorer](screenshot/nginx.jpg)
+![Nginx on the explorer](screenshots/nginx.jpg)
 
 ### 4. Blob Storage
 Create Storage Account
-![blob storage account created](screenshot/storage-account.jpg)
+![blob storage account created](screenshots/storage-account.jpg)
 Create Account Key
 ![account key created](screenshots/account-key.jpg)
 Create storage container 
