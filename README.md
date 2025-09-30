@@ -10,6 +10,7 @@ This repository contains scripts and documentation for learning Azure core servi
   - `VM-Nginx-Networking/` → Commands to create and manage VM, Nginx and Networking	
   - `NSG-Blob_Storage/` → Scripts, commands and templates 
 - `AzureSQLMonitor/`→ Azure SQL database and Azure Alerts labs
+- `azure-basic-web-infra/`→ Created a basic azure infrastructure
 - `README.md` files in each folder explain step-by-step instructions.
 
 ## Resource Group and Entra ID
@@ -45,6 +46,17 @@ This lab demonstrates how to combine key Azure services into a small web applica
 
 - Created a CPU usage alert on VM
 - Tested CPU with stress tool and got CPU alert
+
+## Azure basic web infrastructure
+
+- Create Resource Group
+- Networking: VNet + Subnet + NSG
+- Deploy Linux VM + Install Web Server
+- Blob Storage
+- SQL Database
+- Azure Monitor
+
+
 
 
 
