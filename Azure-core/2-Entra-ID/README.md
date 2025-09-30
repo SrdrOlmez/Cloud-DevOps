@@ -21,3 +21,37 @@ az ad user create \
 ```
 ![create variables and users](screenshots/user-bash.jpg)
 
+## Create Group
+```bash
+az ad group create \
+  --display-name $GROUP_NAME \
+  --mail-nickname $GROUP_NAME
+```
+![create azure group](screenshots/group-bash.jpg)
+
+Group overview on azure portal
+
+![group overview](screenshots/az-group.jpg)
+
+## Add User to Group and Assign Role
+Add user to Group
+```bash
+az ad group member add \
+  --group $GROUP_NAME \
+  --member-id $(az ad user show --id $USER_PRINCIPAL_NAME --query id -o tsv)
+```
+Assign RBAC
+```bash
+az role assignment create \
+  --assignee $(az ad group show --group $GROUP_NAME --query id -o tsv) \
+  --role $ROLE \
+  --scope /subscriptions/$(az account show --query id -o tsv)/resourceGroups/$RESOURCE_GROUP
+```
+![add user to group](screenshots/user-rbac.jpg)
+
+Overview on azure portal
+![assign a role](screenshots/az-role.jpg)
+
+
+
+
