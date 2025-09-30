@@ -1,5 +1,3 @@
-# Commands used on Day 2
-
 ## 1. Deploy Linux VM
 ```bash
 az vm create \
