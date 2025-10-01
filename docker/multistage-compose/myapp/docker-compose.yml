@@ -1,0 +1,26 @@
+version: "3.8"
+services:
+  app:
+    build: .
+    ports:
+      - "8080:3000"
+    depends_on:
+      - db
+    environment:
+      - DB_HOST=db
+      - DB_USER=root
+      - DB_PASSWORD=rootpass
+      - DB_NAME=mydb
+
+  db:
+    image: mysql:8
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: mydb
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:
+
