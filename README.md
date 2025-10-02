@@ -10,7 +10,10 @@ This repository contains scripts and documentation for learning Azure core servi
   - `VM-Nginx-Networking/` → Commands to create and manage VM, Nginx and Networking	
   - `NSG-Blob_Storage/` → Scripts, commands and templates 
 - `AzureSQLMonitor/`→ Azure SQL database and Azure Alerts labs
-- `azure-basic-web-infra/`→ Created a basic azure infrastructure
+- `azure-basic-web-infra/`→ Create a basic azure infrastructure
+- `docker/` 
+  - `basic-dockerile/`→ Create a basic dockerfile
+  - `multistage-compose/`→ Create multistage dockerfile
 - `README.md` files in each folder explain step-by-step instructions.
 
 ## Resource Group and Entra ID
@@ -49,13 +52,19 @@ This lab demonstrates how to combine key Azure services into a small web applica
 
 ## Azure basic web infrastructure
 
-- Create Resource Group
+- Created Resource Group
 - Networking: VNet + Subnet + NSG
 - Deploy Linux VM + Install Web Server
 - Blob Storage
 - SQL Database
 - Azure Monitor
 
+## Docker
+
+- Created a basic dockerfile
+- Created multistage-dockerfile
+- Created a yaml file
+- Run & Test 
 
 
 
