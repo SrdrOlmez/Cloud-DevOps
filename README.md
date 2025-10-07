@@ -4,16 +4,19 @@ This repository contains scripts and documentation for learning Azure core servi
 
 ## Structure
 
-- `Azure-core/`
-  - `Create-resource-group/` → Scripts to create Resource Groups
-  - `Entra-ID/` → Scripts to create Users, Groups, and assign RBAC roles
-  - `VM-Nginx-Networking/` → Commands to create and manage VM, Nginx and Networking	
-  - `NSG-Blob_Storage/` → Scripts, commands and templates 
-- `AzureSQLMonitor/`→ Azure SQL database and Azure Alerts labs
-- `azure-basic-web-infra/`→ Create a basic azure infrastructure
-- `docker/` 
-  - `basic-dockerile/`→ Create a basic dockerfile
-  - `multistage-compose/`→ Create multistage dockerfile
+- `01-Azure-core/`
+  - `1-Create-resource-group/` → Scripts to create Resource Groups
+  - `2-Entra-ID/` → Scripts to create Users, Groups, and assign RBAC roles
+  - `3-VM-Nginx-Networking/` → Commands to create and manage VM, Nginx and Networking	
+  - `4-NSG-Blob_Storage/` → Scripts, commands and templates 
+- `02-AzureSQLMonitor/`→ Azure SQL database and Azure Alerts labs
+- `03-Azure-basic-web-infra/`→ Create a basic azure infrastructure
+- `04-Docker/` 
+  - `1-Basic-dockerile/`→ Create a basic dockerfile
+  - `2-Multistage-compose/`→ Create multistage dockerfile
+  - `3-Docker-mini-project/`→ Create a basic docker project
+- `05-Kubernetes/`
+  -`1-Minikube/`→ Explore the basics of Kubernetes
 - `README.md` files in each folder explain step-by-step instructions.
 
 ## Resource Group and Entra ID
@@ -66,6 +69,8 @@ This lab demonstrates how to combine key Azure services into a small web applica
 - Created a yaml file
 - Run & Test 
 
+## Kubernetes
 
+- Explored the basics of Kubernetes
 
 

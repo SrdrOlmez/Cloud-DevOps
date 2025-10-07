@@ -9,15 +9,27 @@
 6. Azure Monitor
 
 ### 1. Create Resource Group
+```bash
+az group create --name rg-basic-infra --location uksouth
+```
 ![azure resourge group created](screenshots/rg.jpg)
 
 ### 2. Networking: VNet + Subnet + NSG
+```bash
+az network vnet create \
+  --resourcegroup rg-basic-infra \
+  --name vnet-basic \
+  --subnet-name subnet-basic \
+  --location uksouth
+```
 ![vnet-subnet created](screenshots/vnet.jpg)
 
 SSH & HTTP Rules created
 
+SSH rules
 ![ssh rule created](screenshots/ssh-rule.jpg)
 
+HTTP rules
 ![http rule created](screenshots/http-rule.jpg)
 
 ### 3. Deploy Linux VM + Install Web Server
