@@ -16,7 +16,7 @@ This repository contains scripts and documentation for learning Azure core servi
   - `2-Multistage-compose/`→ Create multistage dockerfile
   - `3-Docker-mini-project/`→ Create a basic docker project
 - `05-Kubernetes/`
-  -`1-Minikube/`→ Explore the basics of Kubernetes
+  - `1-Minikube/`→ Explore the basics of Kubernetes
 - `README.md` files in each folder explain step-by-step instructions.
 
 ## Resource Group and Entra ID
@@ -42,7 +42,7 @@ This lab demonstrates how to combine key Azure services into a small web applica
 - Upload/download verification with CLI
 - SAS (Shared Access Signature) URL for secure access
 
-## Azure SQL Database and azure monitor
+## Azure SQL Database and Azure Monitor
 
 - Created SQL server and configured firewall rule
 - Connected with Azure Data Studio
@@ -53,7 +53,7 @@ This lab demonstrates how to combine key Azure services into a small web applica
 - Created a CPU usage alert on VM
 - Tested CPU with stress tool and got CPU alert
 
-## Azure basic web infrastructure
+## Azure Basic Web Infrastructure
 
 - Created Resource Group
 - Networking: VNet + Subnet + NSG
