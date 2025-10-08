@@ -1,8 +1,8 @@
 # Deploying a Dockerized App to Kubernetes
-1- Connect Docker to Minikube's environment
-2- Build the Docker image
-3- Create Deployment and Service files
-4- Access the app
+1. Connect Docker to Minikube's environment
+2. Build the Docker image
+3. Create Deployment and Service files
+4. Access the app
 
 ## Connect Docker to Minikube and Build the Docker Image
 Connecting Minikube's environment makes the Docker command use the Docker daemon inside Minikube
@@ -88,7 +88,6 @@ Get the URL
 ```bash
 minikube service myapp --url
 ```
-Open the URL in your browser
-
 ![create yaml files and access the app](screenshots/create-access.jpg)
+Open the URL in your browser
 ![app on the browser](screenshots/app-browser.jpg)
