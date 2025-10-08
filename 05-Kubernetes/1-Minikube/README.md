@@ -83,7 +83,7 @@ Scale Deployment
 kubectl scale deployment nginx-deploy --replicas=3
 kubectl get pods
 ```
-![explore deployments](screenshots/explore-deployments.jpg)
+![explore deployments](screenshots/explore-deployment.jpg)
 
 ## Explore Services
 A Service exposes Pods to the network. For example, a ClusterIP service is internal, and a NodePort service exposes it externally

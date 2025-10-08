@@ -17,6 +17,7 @@ This repository contains scripts and documentation for learning Azure core servi
   - `3-Docker-mini-project/`→ Create a basic docker project
 - `05-Kubernetes/`
   - `1-Minikube/`→ Explore the basics of Kubernetes
+  - `2-Dockerized-app/`→ Deploying a Dockerized app to Kubernetes
 - `README.md` files in each folder explain step-by-step instructions.
 
 ## Resource Group and Entra ID
@@ -72,5 +73,5 @@ This lab demonstrates how to combine key Azure services into a small web applica
 ## Kubernetes
 
 - Explored the basics of Kubernetes
-
+- Deployed a Dockerized app to Kubernetes
 
