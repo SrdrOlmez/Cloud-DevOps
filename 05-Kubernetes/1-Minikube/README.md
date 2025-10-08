@@ -1,10 +1,10 @@
 # Kubernetes Fundamentals
-1- Install a local Kuberenetes cluster(minikube)
-2- kuebctl basics:
+1. Install a local Kuberenetes cluster(minikube)
+2. kuebctl basics:
   - Pods
   - Deployments
   - Services
-3-Cluster resources
+3. Cluster resources
 
 ## Install Kubernetes Locally
 Minikube is a lightweighted tool that lets you run a single-node Kubernetes cluster locally.
