@@ -46,7 +46,7 @@ Check the image exists
 ```bash
 docker images
 ```
-![docker image](screenshots/docker-image.jpg)
+![docker image](screenshots/docker-images.jpg)
 ## Push Image to Docker Hub
 ```bash
 docker push username/myapp:latest
@@ -100,7 +100,7 @@ kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 kubectl get pods -w
 ```
-![deploy kubernetes](get-pods.jpg)
+![deploy kubernetes](screenshots/get-pods.jpg)
 
 Access the App with --url flag to get the URL without attempting to open it.
 ```bash
