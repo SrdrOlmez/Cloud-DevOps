@@ -12,12 +12,13 @@ az group create --name rg-acr-demo --location uksouth
 ```
 
 ## Create the ACR (Basic SKU)
-Choose a regisry name.
+Choose a registry name.
 ```bash
 az acr create --resource-group rg-acr-demo --name yournameacr123 --sku Basic --location uksouth
 ```
 I get 'MissingSubscriptionRegistration' error. The resource provider must be enabled for the subscription
 ![registration error](screenshots/error.jpg)
+
 I registered the Microsoft.ContainerRegistry resource provider for my subscription
 ```bash
 az provider register --namespace Microsoft.ContainerRegistry
@@ -27,6 +28,7 @@ Created Basic sku
 
 ## Build a Small Docker Image
 Created a folder for my simple-web app
+
 Created Dockerfile and index.html file in html folder
 ```Dockerfile
 FROM nginx:alpine
@@ -36,7 +38,7 @@ COPY ./html /usr/share/nginx/html
 <!-- simple-web/html/index.html -->
 <html><body><h1>ACR Demo - Hello from yourusername</h1></body></html>
 ```
-Built Dokcer image locally
+Built Docker image locally
 ```bash
 docker build -t simple-web:local .
 ```
@@ -69,6 +71,9 @@ docker pull yournameacr123.azurecr.io/simple-web:v1
 docker run --rm -p 8080:80 yournameacr123.azurecr.io/simple-web:v1
 ```
 ![registration error](screenshots/verify-pull.jpg)
+
 Open it on your browser to see the page
+
 http://localhost:8080
+
 ![registration error](screenshots/localhost.jpg)
