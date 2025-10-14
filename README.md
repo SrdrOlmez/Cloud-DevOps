@@ -18,6 +18,9 @@ This repository contains scripts and documentation for learning Azure core servi
 - `05-Kubernetes/`
   - `1-Minikube/`→ Explore the basics of Kubernetes
   - `2-Dockerized-app/`→ Deploying a Dockerized app to Kubernetes
+  - `3-YAML-Manifests/`→ Declerative configuration with YAML
+- `06-ACR-AKS/`
+  - `1-ACR/`→ Explore Azure container registry
 - `README.md` files in each folder explain step-by-step instructions.
 
 ## Resource Group and Entra ID
