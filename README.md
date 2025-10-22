@@ -21,6 +21,8 @@ This repository contains scripts and documentation for learning Azure core servi
   - `3-YAML-Manifests/`→ Declerative configuration with YAML
 - `06-ACR-AKS/`
   - `1-ACR/`→ Explore Azure container registry
+  - `2-AKS/`→ Explore Azure Kubernetes service
+  - `3-Mini-project/`→ ACR & AKS mini project
 - `README.md` files in each folder explain step-by-step instructions.
 
 ## Resource Group and Entra ID
@@ -77,4 +79,14 @@ This lab demonstrates how to combine key Azure services into a small web applica
 
 - Explored the basics of Kubernetes
 - Deployed a Dockerized app to Kubernetes
+- Practice declarative configuration with YAML
+- Deployments for managing replicas and rollouts
+- Services for stable networking and load balancing
+
+## ACR & AKS(Local Simulation)
+
+- Simulated AKS with Kind and ACR with local Docker registry
+- Built, tagged, and pushed images (v1 → v2)
+- Deployed app from local registry to Kind
+- Tested rolling updates and verified zero downtime
 
