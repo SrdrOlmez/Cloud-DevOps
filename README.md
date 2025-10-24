@@ -1,6 +1,6 @@
 # Cloud/DevOps Learning Project
 
-This repository contains scripts and documentation for learning Azure core services.
+This repository contains scripts, bash commands and documentation for learning Azure core services, Docker, Kubernetes, ACR & AKS
 
 ## Structure
 
