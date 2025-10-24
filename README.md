@@ -1,4 +1,4 @@
-# Azure Learning Project
+# Cloud/DevOps Learning Project
 
 This repository contains scripts and documentation for learning Azure core services.
 
