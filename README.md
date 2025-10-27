@@ -23,6 +23,9 @@ This repository contains scripts, bash commands and documentation for learning A
   - `1-ACR/`→ Explore Azure container registry
   - `2-AKS/`→ Explore Azure Kubernetes service
   - `3-Mini-project/`→ ACR & AKS mini project
+- `07-K8s-advanced`
+  - `1-Configmap-Secrets-HPA` 
+  - `2-Scaling-Monitoring`
 - `README.md` files in each folder explain step-by-step instructions.
 
 ## Resource Group and Entra ID

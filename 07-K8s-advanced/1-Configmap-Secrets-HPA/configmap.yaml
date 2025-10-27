@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-config
+data:
+  WELCOME_MSG: "Welcome from ConfigMap!"
+  CONFIG_JSON: |
+    { "mode": "demo", "featureX": true }
+

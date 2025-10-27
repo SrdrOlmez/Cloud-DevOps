@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: demo
+  template:
+    metadata:
+      labels:
+        app: demo
+    spec:
+      containers:
+      - name: demo
+        image: hashicorp/http-echo:0.2.3
+        args:
+          - "-text=$(WELCOME_MSG) (password=$(DB_PASSWORD))"
+        envFrom:
+          - configMapRef:
+              name: demo-config
+          - secretRef:
+              name: demo-secret
+        ports:
+        - containerPort: 5678
+        resources:
+          requests:
+            cpu: 100m
+          limits:
+            cpu: 250m
