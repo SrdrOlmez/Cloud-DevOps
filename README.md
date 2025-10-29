@@ -26,6 +26,8 @@ This repository contains scripts, bash commands and documentation for learning A
 - `07-K8s-advanced`
   - `1-Configmap-Secrets-HPA` 
   - `2-Scaling-Monitoring`
+- `08-Terraform/`
+  - `1-Basics`
 - `README.md` files in each folder explain step-by-step instructions.
 
 ## Resource Group and Entra ID
