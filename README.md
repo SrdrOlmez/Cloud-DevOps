@@ -24,10 +24,10 @@ This repository contains scripts, bash commands and documentation for learning A
   - `2-AKS/`→ Explore Azure Kubernetes service
   - `3-Mini-project/`→ ACR & AKS mini project
 - `07-K8s-advanced`
-  - `1-Configmap-Secrets-HPA` 
-  - `2-Scaling-Monitoring`
+  - `1-Configmap-Secrets-HPA`→ Explore ConfigMaps, Secrets, and HPA in Kubernetes 
+  - `2-Scaling-Monitoring`→ Kubernetes scaling strategies and cluster monitoring setup
 - `08-Terraform/`
-  - `1-Basics`
+  - `1-Basics`→ Terraform fundementals and create basic infrastructure
 - `README.md` files in each folder explain step-by-step instructions.
 
 ## Resource Group and Entra ID
@@ -95,3 +95,18 @@ This lab demonstrates how to combine key Azure services into a small web applica
 - Deployed app from local registry to Kind
 - Tested rolling updates and verified zero downtime
 
+## K8s Advanced 
+
+- Managed app configuration using ConfigMaps and Secrets
+- Implemented Horizontal Pod Autoscaler (HPA) for dynamic scaling
+- Configured resource requests and limits for efficient utilization
+- Set up cluster monitoring with metrics-server
+- Practiced troubleshooting and performance observation
+
+## Terraform
+
+- Learned Terraform fundamentals and IaC concepts
+- Initialized providers and managed Azure resources declaratively
+- Created and deployed basic Azure infrastructure (RG, Storage, VM)
+- Practiced init, plan, apply, and destroy workflows
+- Explored state management and variable usage for reusable templates
