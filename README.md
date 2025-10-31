@@ -28,6 +28,7 @@ This repository contains scripts, bash commands and documentation for learning A
   - `2-Scaling-Monitoring`→ Kubernetes scaling strategies and cluster monitoring setup
 - `08-Terraform/`
   - `1-Basics`→ Terraform fundementals and create basic infrastructure
+  - `2-Terraform-vm-lab`→ Define infrastructure with Terraform
 - `README.md` files in each folder explain step-by-step instructions.
 
 ## Resource Group and Entra ID

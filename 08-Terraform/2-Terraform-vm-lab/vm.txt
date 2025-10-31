@@ -1,0 +1,1 @@
+Simulating Azure VM: myVM in Resource Group: myResourceGroup

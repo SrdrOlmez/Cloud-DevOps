@@ -1,0 +1,1 @@
+Simulating Azure Resource Group: myResourceGroup
