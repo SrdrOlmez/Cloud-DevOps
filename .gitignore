@@ -1,6 +1,40 @@
-# Terraform
-.terraform/
+# === Terraform ===
 *.tfstate
-*.tfstate.*
+*.tfstate.backup
+crash.log
+.terraform/
 .terraform.lock.hcl
+
+# === Azure CLI ===
+.azure/
+
+# === Docker ===
+*.log
+*.pid
+*.tar
+*.img
+*.bak
+
+# Ignore local docker build cache
+**/node_modules/
+**/.env
+.env
+.env.*
+
+# === Python (if you use scripts) ===
+__pycache__/
+*.pyc
+
+# === VSCode & IDEs ===
+.vscode/
+.idea/
+*.swp
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+# === Misc ===
+*.bak
+*.tmp
 
