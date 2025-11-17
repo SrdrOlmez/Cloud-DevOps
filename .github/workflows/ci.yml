@@ -1,0 +1,28 @@
+name: CI - Build & Publish Image
+on:
+  push:
+    branches: [ "main" ]
+permissions:
+  contents: read
+  packages: write
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build and push image
+        uses: docker/build-push-action@v4
+        with:
+          context: ./09-CI-CD
+          file: ./09-CI-CD/Dockerfile
+          push: true
+          tags: ghcr.io/${{ github.repository_owner }}/week9app:${{ github.sha }}
+      - name: Show result
+        run: echo "Pushed ghcr.io/${{ github.repository_owner }}/week9app:${{ github.sha }}"
+
