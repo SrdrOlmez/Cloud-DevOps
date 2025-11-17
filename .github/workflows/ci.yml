@@ -22,7 +22,7 @@ jobs:
           context: ./09-CI-CD
           file: ./09-CI-CD/Dockerfile
           push: true
-          tags: ghcr.io/${{ github.repository_owner | toLower }}/week9app:${{ github.sha }}
+          tags: ghcr.io/srdrolmez/week9app:${{ github.sha }}
       - name: Show result
         run: echo "Pushed ghcr.io/${{ github.repository_owner }}/week9app:${{ github.sha }}"
 
