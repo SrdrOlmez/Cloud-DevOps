@@ -10,6 +10,6 @@ This project demonstrated a CI/CD workflow using GitHub Actions:
 
 ## Docker Image
 
-![Docker image](screenshots/build-docker)
+![Docker image](screenshots/build-docker.jpg)
 
-![Local host](screenshots/local-host)
+![Local host](screenshots/local-host.jpg)

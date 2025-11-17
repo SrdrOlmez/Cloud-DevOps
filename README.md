@@ -23,12 +23,13 @@ This repository contains scripts, bash commands and documentation for learning A
   - `1-ACR/`→ Explore Azure container registry
   - `2-AKS/`→ Explore Azure Kubernetes service
   - `3-Mini-project/`→ ACR & AKS mini project
-- `07-K8s-advanced`
-  - `1-Configmap-Secrets-HPA`→ Explore ConfigMaps, Secrets, and HPA in Kubernetes 
-  - `2-Scaling-Monitoring`→ Kubernetes scaling strategies and cluster monitoring setup
+- `07-K8s-advanced/`
+  - `1-Configmap-Secrets-HPA/`→ Explore ConfigMaps, Secrets, and HPA in Kubernetes 
+  - `2-Scaling-Monitoring/`→ Kubernetes scaling strategies and cluster monitoring setup
 - `08-Terraform/`
-  - `1-Basics`→ Terraform fundementals and create basic infrastructure
-  - `2-Terraform-vm-lab`→ Define infrastructure with Terraform
+  - `1-Basics/`→ Terraform fundementals and create basic infrastructure
+  - `2-Terraform-vm-lab/`→ Define infrastructure with Terraform
+- `09-CI-CD/`→ Demonstrate CI/CD workflow with GitHub Actions
 - `README.md` files in each folder explain step-by-step instructions.
 
 ## Resource Group and Entra ID
@@ -111,3 +112,10 @@ This lab demonstrates how to combine key Azure services into a small web applica
 - Created and deployed basic Azure infrastructure (RG, Storage, VM)
 - Practiced init, plan, apply, and destroy workflows
 - Explored state management and variable usage for reusable templates
+
+## CI/CD Pipeline
+
+- Dockerized a simple web app and tested it locally.
+- Built a GitHub Actions workflow to automate image build and push to GHCR
+- Integrated with a kind Kubernetes cluster to test the image
+- Learned workflow triggers, troubleshooting, and CI/CD best practices
